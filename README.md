@@ -23,3 +23,8 @@ update hosts to point to GCE
 
 google: could not find default credentials. error?
 * fix: gcloud auth application-default login
+
+
+user express validator for validating data
+https://www.npmjs.com/package/express-validator
+https://express-validator.github.io/docs/
