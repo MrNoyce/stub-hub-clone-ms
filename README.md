@@ -28,3 +28,7 @@ google: could not find default credentials. error?
 user express validator for validating data
 https://www.npmjs.com/package/express-validator
 https://express-validator.github.io/docs/
+
+// generate a secret in k8
+kubectl create secret generic jwt-secret --from-literal=JWT_KEY={asdf}
+k get secrets
